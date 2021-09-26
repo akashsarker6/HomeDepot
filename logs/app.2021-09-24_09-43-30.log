@@ -1,0 +1,29 @@
+2021-09-24 21:43:33.731 [main][5283] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 21:43:51.820 [main][23372] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 21:43:51.833 [main][23385] DEBUG page_object.SignIn - Click on My Account
+2021-09-24 21:43:57.175 [main][28727] DEBUG page_object.SignIn - Click on Account Profile
+2021-09-24 21:44:07.779 [main][39331] INFO  step_definations.SignInSteps - user has entered Credentials
+2021-09-24 21:44:07.780 [main][39332] DEBUG page_object.SignIn - User clicked on login button
+2021-09-24 21:44:24.343 [main][55895] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[@id='headerMyAccount']//div[@class='MyAccount__userInfo SimpleFlyout__link--bold'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='headerMyAccount']//div[@class='MyAccount__userInfo SimpleFlyout__link--bold']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:17:3bd6:4b5b:4b9a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:61112}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e0b1ca3f78677ade406b9cc9bb95071
+*** Element info: {Using=xpath, value=//a[@id='headerMyAccount']//div[@class='MyAccount__userInfo SimpleFlyout__link--bold']}
+2021-09-24 21:44:24.365 [main][55917] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 21:44:25.987 [main][57539] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 21:44:36.593 [main][68145] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 21:44:41.515 [main][73067] DEBUG page_object.Electrical - User Click on on Electrical
+2021-09-24 21:44:50.330 [main][81882] DEBUG page_object.Electrical - Validate Electric Page
+2021-09-24 21:44:50.525 [main][82077] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 21:44:52.074 [main][83626] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 21:45:04.756 [main][96308] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 21:45:04.759 [main][96311] DEBUG page_object.Husky - Click on the Husky Page
+2021-09-24 21:45:15.374 [main][106926] DEBUG page_object.Husky - User should able to see the Husky Page
+2021-09-24 21:45:15.663 [main][107215] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 21:45:17.340 [main][108892] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 21:45:28.374 [main][119926] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 21:45:29.846 [main][121398] INFO  step_definations.Hooks - Launch Chrome Browser

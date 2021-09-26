@@ -1,0 +1,9 @@
+2021-09-25 10:06:39.922 [main][5162] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 10:06:47.806 [main][13046] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 10:06:47.811 [main][13051] DEBUG page_object.Search - Click On the Search BAr
+2021-09-25 10:06:58.030 [main][23270] INFO  step_definations.SearchSteps - User entered the item in the search bar
+2021-09-25 10:06:58.030 [main][23270] DEBUG page_object.Search - Click On the Search Button
+2021-09-25 10:07:07.379 [main][32619] DEBUG page_object.ItemDetails - Click On the Wireless DoorBell
+2021-09-25 10:07:11.921 [main][37161] DEBUG page_object.ItemDetails - Click On the Wireless DoorBell
+2021-09-25 10:07:12.254 [main][37494] DEBUG page_object.ItemDetails - Validate the Item Details
+2021-09-25 10:07:15.675 [main][40915] INFO  step_definations.Hooks - Close Chrome Browser

@@ -1,0 +1,7 @@
+2021-09-25 10:04:52.342 [main][5639] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 10:05:06.364 [main][19661] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 10:05:06.369 [main][19666] DEBUG page_object.Search - Click On the Search BAr
+2021-09-25 10:05:12.813 [main][26110] INFO  step_definations.SearchSteps - User entered the item in the search bar
+2021-09-25 10:05:12.813 [main][26110] DEBUG page_object.Search - Click On the Search Button
+2021-09-25 10:05:21.023 [main][34320] DEBUG page_object.Search - Validate the Search Item
+2021-09-25 10:05:21.521 [main][34818] INFO  step_definations.Hooks - Close Chrome Browser

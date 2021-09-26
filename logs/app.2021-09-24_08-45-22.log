@@ -1,0 +1,7 @@
+2021-09-24 20:45:25.828 [main][5726] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 20:45:40.266 [main][20164] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 20:45:48.045 [main][27943] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 20:45:48.051 [main][27949] DEBUG page_object.NewLowerPrice - Mouse On the Privacy and Security Center
+2021-09-24 20:45:49.099 [main][28997] DEBUG page_object.NewLowerPrice - Click On the New Lower Price
+2021-09-24 20:45:49.709 [main][29607] DEBUG page_object.NewLowerPrice - User should able to see Click on New Lower Price
+2021-09-24 20:46:04.836 [main][44734] INFO  step_definations.Hooks - Close Chrome Browser

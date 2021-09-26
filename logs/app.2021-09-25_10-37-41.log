@@ -1,0 +1,22 @@
+2021-09-25 10:37:44.877 [main][5496] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 10:37:57.774 [main][18393] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 10:37:57.781 [main][18400] DEBUG page_object.AccountProfile - Click on My Account
+2021-09-25 10:38:03.539 [main][24158] DEBUG page_object.AccountProfile - Click on Account Profile
+2021-09-25 10:38:15.849 [main][36468] INFO  step_definations.AccountProfileSteps - user has entered Credentials
+2021-09-25 10:38:15.852 [main][36471] DEBUG page_object.AccountProfile - User clicked on login button
+2021-09-25 10:38:32.082 [main][52701] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[@id='headerMyAccount']//div[@class='MyAccount__userInfo SimpleFlyout__link--bold'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='headerMyAccount']//div[@class='MyAccount__userInfo SimpleFlyout__link--bold']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: '2600:1017:b8d1:4a87:5d39:1bd6:63c3:c638%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:53270}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 687377926410a3c168ea3f2feb2ff214
+*** Element info: {Using=xpath, value=//a[@id='headerMyAccount']//div[@class='MyAccount__userInfo SimpleFlyout__link--bold']}
+2021-09-25 10:38:32.108 [main][52727] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 10:38:34.227 [main][54846] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 10:38:48.537 [main][69156] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 10:38:52.703 [main][73322] DEBUG page_object.Electrical - User Click on on Electrical
+2021-09-25 10:39:02.212 [main][82831] DEBUG page_object.Electrical - Validate Electric Page
+2021-09-25 10:39:02.564 [main][83183] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 10:39:04.336 [main][84955] INFO  step_definations.Hooks - Launch Chrome Browser

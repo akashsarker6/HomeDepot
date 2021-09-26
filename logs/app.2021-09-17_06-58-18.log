@@ -1,0 +1,26 @@
+2021-09-17 18:58:23.241 [main][7033] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-17 18:58:39.296 [main][23088] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-17 18:58:45.960 [main][29752] INFO  step_definations.SignIn - Click on My Account
+2021-09-17 18:58:51.994 [main][35786] INFO  step_definations.SignIn - Click on Account Profile
+2021-09-17 18:58:57.187 [main][40979] INFO  step_definations.SignIn - user has entered Credentials
+2021-09-17 18:58:57.888 [main][41680] INFO  step_definations.SignIn - User clicked on login button
+2021-09-17 18:59:01.930 [main][45722] INFO  step_definations.SignIn - User is on the Home Page
+2021-09-17 18:59:04.141 [main][47933] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-17 18:59:06.148 [main][49940] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-17 18:59:30.544 [main][74336] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-17 18:59:35.032 [main][78824] INFO  step_definations.SignIn - Click on My Account
+2021-09-17 18:59:40.605 [main][84397] INFO  step_definations.SignIn - Click on Account Profile
+2021-09-17 18:59:47.328 [main][91120] INFO  step_definations.SignIn - user has entered Credentials
+2021-09-17 18:59:47.987 [main][91779] INFO  step_definations.SignIn - User clicked on login button
+2021-09-17 18:59:53.556 [main][97348] INFO  step_definations.SignIn - User is on the Home Page
+2021-09-17 18:59:53.668 [main][97460] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-17 18:59:55.154 [main][98946] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-17 19:00:12.157 [main][115949] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-17 19:00:14.489 [main][118281] INFO  step_definations.SignIn - Click on My Account
+2021-09-17 19:00:19.628 [main][123420] INFO  step_definations.SignIn - Click on Account Profile
+2021-09-17 19:00:25.198 [main][128990] INFO  step_definations.SignIn - user has entered Credentials
+2021-09-17 19:00:26.280 [main][130072] INFO  step_definations.SignIn - User clicked on login button
+2021-09-17 19:00:41.491 [main][145283] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-17 19:00:43.123 [main][146915] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-17 19:00:56.142 [main][159934] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-17 19:00:56.153 [main][159945] INFO  step_definations.Hooks - Close Chrome Browser

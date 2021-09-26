@@ -1,0 +1,15 @@
+2021-09-19 02:44:40.069 [main][7188] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 02:44:53.335 [main][20454] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 02:44:59.333 [main][26452] INFO  step_definations.LocalAdAndCatalog - Click On the Search BAr
+2021-09-19 02:45:00.300 [main][27419] INFO  step_definations.LocalAdAndCatalog - User entered the item in the search bar
+2021-09-19 02:45:08.503 [main][35622] INFO  step_definations.LocalAdAndCatalog - Click On the Search Button
+2021-09-19 02:45:24.482 [main][51601] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //div[@id='sectionColumn8_thd_7c6e']//img[contains(@class,'stretchy')] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='sectionColumn8_thd_7c6e']//img[contains(@class,'stretchy')]"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: '2600:1017:b8d9:e4f1:899:e6:8ce0:8e16%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:60036}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 080cf07f16070d96a629e1733d18f19c
+*** Element info: {Using=xpath, value=//div[@id='sectionColumn8_thd_7c6e']//img[contains(@class,'stretchy')]}
+2021-09-19 02:45:24.507 [main][51626] INFO  step_definations.Hooks - Close Chrome Browser

@@ -1,0 +1,14 @@
+2021-09-11 11:47:20.443 [main][5865] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-11 11:47:30.679 [main][16101] INFO  step_definations.Electrical - User is in HomeDepot home page
+2021-09-11 11:47:36.685 [main][22107] INFO  step_definations.Electrical - User mouse over on All Department
+2021-09-11 11:47:38.468 [main][23890] INFO  step_definations.Electrical - User mouse over on Electrical
+2021-09-11 11:47:53.826 [main][39248] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[@title='Wire'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='Wire']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:7540:7e:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:51088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c795ce25bfcf0fdd4dac3c2a042696bc
+*** Element info: {Using=xpath, value=//a[@title='Wire']}
+2021-09-11 11:47:53.840 [main][39262] INFO  step_definations.Hooks - Close Chrome Browser

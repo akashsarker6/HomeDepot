@@ -1,0 +1,12 @@
+2021-09-18 12:12:35.532 [main][5150] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-18 12:12:49.252 [main][18870] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-18 12:13:04.899 [main][34517] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[contains(@data-id,'diyProjectsIdeas') and @class='ShoppingLinks__link js__flyout--open ShoppingLinks__link--force-open'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@data-id,'diyProjectsIdeas') and @class='ShoppingLinks__link js__flyout--open ShoppingLinks__link--force-open']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro', ip: 'fe80:0:0:0:e6:e730:67a6:2469%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:50038}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8829ddf1a0f10b56ebd404b9b2f53563
+*** Element info: {Using=xpath, value=//a[contains(@data-id,'diyProjectsIdeas') and @class='ShoppingLinks__link js__flyout--open ShoppingLinks__link--force-open']}
+2021-09-18 12:13:04.912 [main][34530] INFO  step_definations.Hooks - Close Chrome Browser

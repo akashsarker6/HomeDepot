@@ -1,0 +1,6 @@
+2021-09-19 01:21:15.238 [main][6838] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 01:21:28.610 [main][20210] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 01:21:34.847 [main][26447] INFO  step_definations.LocalAdAndCatalog - Click On the Store Location Arrow
+2021-09-19 01:21:37.480 [main][29080] INFO  step_definations.LocalAdAndCatalog - Click On the Find Location Button
+2021-09-19 01:21:37.774 [main][29374] INFO  step_definations.LocalAdAndCatalog - Landed on Find Location Page
+2021-09-19 01:21:37.779 [main][29379] INFO  step_definations.Hooks - Close Chrome Browser

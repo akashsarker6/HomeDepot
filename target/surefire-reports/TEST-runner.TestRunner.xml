@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="runner.TestRunner" time="516.974" tests="14" errors="5" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="/Users/akashsarker/.cache/selenium/chromedriver/mac64/92.0.4515.107/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/target/test-classes:/Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/target/classes:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/akashsarker/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/akashsarker/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/akashsarker/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/akashsarker/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/akashsarker/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/akashsarker/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/akashsarker/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/akashsarker/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/akashsarker/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/akashsarker/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-java/6.11.0/cucumber-java-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-core/6.11.0/cucumber-core-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-gherkin/6.11.0/cucumber-gherkin-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.11.0/cucumber-gherkin-messages-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-plugin/6.11.0/cucumber-plugin-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/docstring/6.11.0/docstring-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/akashsarker/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-junit/6.11.0/cucumber-junit-6.11.0.jar:/Users/akashsarker/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akashsarker/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/akashsarker/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/akashsarker/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/akashsarker/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/akashsarker/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3.jar:/Users/akashsarker/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/akashsarker/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/akashsarker/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/akashsarker/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/akashsarker/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/akashsarker/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/akashsarker/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/akashsarker/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/akashsarker/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/akashsarker/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/akashsarker/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/akashsarker/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/akashsarker/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:/Users/akashsarker/.m2/repository/net/masterthought/cucumber-reporting/5.5.4/cucumber-reporting-5.5.4.jar:/Users/akashsarker/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/akashsarker/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/akashsarker/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/akashsarker/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/akashsarker/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/akashsarker/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/akashsarker/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/akashsarker/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/akashsarker/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20200713.1/owasp-java-html-sanitizer-20200713.1.jar:/Users/akashsarker/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/akashsarker/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/akashsarker/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/target/surefire/surefirebooter13523267440114357861.jar /Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/target/surefire 2021-09-24T18-32-46_491-jvmRun1 surefire567005468290183599tmp surefire_08173184504968644717tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/target/test-classes:/Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/target/classes:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/akashsarker/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/akashsarker/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/akashsarker/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/akashsarker/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/akashsarker/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/akashsarker/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/akashsarker/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/akashsarker/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/akashsarker/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/akashsarker/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/akashsarker/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-java/6.11.0/cucumber-java-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-core/6.11.0/cucumber-core-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-gherkin/6.11.0/cucumber-gherkin-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.11.0/cucumber-gherkin-messages-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/messages/15.0.0/messages-15.0.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/tag-expressions/3.0.1/tag-expressions-3.0.1.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/datatable/3.5.0/datatable-3.5.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-plugin/6.11.0/cucumber-plugin-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/docstring/6.11.0/docstring-6.11.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/html-formatter/13.0.0/html-formatter-13.0.0.jar:/Users/akashsarker/.m2/repository/io/cucumber/create-meta/4.0.0/create-meta-4.0.0.jar:/Users/akashsarker/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/akashsarker/.m2/repository/io/cucumber/cucumber-junit/6.11.0/cucumber-junit-6.11.0.jar:/Users/akashsarker/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/akashsarker/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/akashsarker/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.2/junit-jupiter-api-5.7.2.jar:/Users/akashsarker/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/akashsarker/.m2/repository/org/junit/platform/junit-platform-commons/1.7.2/junit-platform-commons-1.7.2.jar:/Users/akashsarker/.m2/repository/io/github/bonigarcia/webdrivermanager/4.4.3/webdrivermanager-4.4.3.jar:/Users/akashsarker/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/akashsarker/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/Users/akashsarker/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/akashsarker/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/akashsarker/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.3/httpclient5-5.0.3.jar:/Users/akashsarker/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.2/httpcore5-5.0.2.jar:/Users/akashsarker/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.0.2/httpcore5-h2-5.0.2.jar:/Users/akashsarker/.m2/repository/commons-codec/commons-codec/1.13/commons-codec-1.13.jar:/Users/akashsarker/.m2/repository/org/rauschig/jarchivelib/1.1.0/jarchivelib-1.1.0.jar:/Users/akashsarker/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/Users/akashsarker/.m2/repository/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar:/Users/akashsarker/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/akashsarker/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:/Users/akashsarker/.m2/repository/net/masterthought/cucumber-reporting/5.5.4/cucumber-reporting-5.5.4.jar:/Users/akashsarker/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.12.1/jackson-databind-2.12.1.jar:/Users/akashsarker/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.12.1/jackson-annotations-2.12.1.jar:/Users/akashsarker/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.12.1/jackson-core-2.12.1.jar:/Users/akashsarker/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar:/Users/akashsarker/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/akashsarker/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/akashsarker/.m2/repository/joda-time/joda-time/2.10.10/joda-time-2.10.10.jar:/Users/akashsarker/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/Users/akashsarker/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20200713.1/owasp-java-html-sanitizer-20200713.1.jar:/Users/akashsarker/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/akashsarker/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/akashsarker/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/akashsarker"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-09-14"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/16.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/target/surefire/surefirebooter13523267440114357861.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17+0"/>
+    <property name="user.name" value="akashsarker"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/akashsarker/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/7h/kpzp938139d4_zxgcykmv6z80000gn/T/"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="/Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/akashsarker/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="User Would to like to see the Account Profile" classname="Test Home Depot functionalities" time="58.674">
+    <system-out><![CDATA[
+@Account_Profile
+Scenario: User Would to like to see the Account Profile                        &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:7&amp#27;[0m
+18:32:52.040 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:33:13.014 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                                                  &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on My Account&amp#27;[0m                                                      &amp#27;[90m# step_definations.SignInSteps.clickOnMyAccountSteps()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Sign in button&amp#27;[0m                                                  &amp#27;[90m# step_definations.SignInSteps.clickOnSigninButtonSteps()&amp#27;[0m
+18:33:31.828 [main] &amp#27;[0mINFO  step_definations.SignInSteps - user has entered Credentials&amp#27;[m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email "&amp#27;[0m&amp#27;[32m&amp#27;[1masarker0420@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mIdontknow0420@&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definations.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Sign In&amp#27;[0m                                                         &amp#27;[90m# step_definations.SignInSteps.clickOnSigninSteps()&amp#27;[0m
+18:33:39.592 [main] &amp#27;[0mINFO  page_object.AccountProfile - User is Click on the Hello My Account&amp#27;[m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Hello My Account&amp#27;[0m                                                &amp#27;[90m# step_definations.AccountProfileSteps.clickOnHelloAccountSteps()&amp#27;[0m
+18:33:42.108 [main] &amp#27;[0mINFO  page_object.AccountProfile - User is Click on the Account Profile&amp#27;[m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick On Account Profile&amp#27;[0m                                                 &amp#27;[90m# step_definations.AccountProfileSteps.clickOnAccountProfileSteps()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should able to see the Account Profile&amp#27;[0m                             &amp#27;[90m# step_definations.AccountProfileSteps.validateAccountProfileSteps()&amp#27;[0m
+18:33:45.621 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 13897
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632522768.740][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:32:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="User would like to see all the Electrical Items" classname="Test Home Depot functionalities" time="27.83">
+    <system-out><![CDATA[
+@Electrical
+Scenario: User would like to see all the Electrical Items &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:19&amp#27;[0m
+18:33:47.781 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:34:01.596 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                             &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser Mouse hover on All Departments&amp#27;[0m                &amp#27;[90m# step_definations.ElectricalSteps.mouseHoverToAllDepartments()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Electrical&amp#27;[0m                                 &amp#27;[90m# step_definations.ElectricalSteps.clickOnElectrical()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should open the Electrical Page&amp#27;[0m               &amp#27;[90m# step_definations.ElectricalSteps.valodateElectricalPage()&amp#27;[0m
+18:34:13.462 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 12512
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632522825.799][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:33:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="User would like to see Husky Items" classname="Test Home Depot functionalities" time="26.209">
+    <system-out><![CDATA[
+@Husky
+Scenario: User would like to see Husky Items   &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:27&amp#27;[0m
+18:34:15.306 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:34:27.191 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                  &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Husky&amp#27;[0m                           &amp#27;[90m# step_definations.HuskySteps.clickOnHuskeyStep()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should able to see the Huskey page&amp#27;[0m &amp#27;[90m# step_definations.HuskySteps.validateHuskyStep()&amp#27;[0m
+18:34:39.690 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 35770
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632522853.626][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:34:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="User would like to see an Item Details" classname="Test Home Depot functionalities" time="37.122">
+    <system-out><![CDATA[
+@Item_Details
+Scenario: User would like to see an Item Details &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:33&amp#27;[0m
+18:34:41.159 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:34:52.039 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                    &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on the Search Bar&amp#27;[0m                    &amp#27;[90m# step_definations.SearchSteps.clickOnSearchBarStep()&amp#27;[0m
+18:34:59.814 [main] &amp#27;[0mINFO  step_definations.SearchSteps - User entered the item in the search bar&amp#27;[m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser would like to Search "&amp#27;[0m&amp#27;[32m&amp#27;[1mDoor Bell&amp#27;[0m&amp#27;[32m"&amp#27;[0m     &amp#27;[90m# step_definations.SearchSteps.enterSearchItem(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Search Button&amp#27;[0m                     &amp#27;[90m# step_definations.SearchSteps.clickOnSearchButtonSteps()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser Click on Wireless DoorBell Buttons&amp#27;[0m    &amp#27;[90m# step_definations.ItemDetailsSteps.clickOnSearchButtonSteps()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick to Open a Hampton Bay&amp#27;[0m                &amp#27;[90m# step_definations.ItemDetailsSteps.clickOnHamptonBaySteps()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should able to see Item Details&amp#27;[0m      &amp#27;[90m# step_definations.ItemDetailsSteps.validateItemPageSteps()&amp#27;[0m
+18:35:16.798 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 31891
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632522879.844][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:34:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="User would like to see Local Ad &amp; Catalog Page" classname="Test Home Depot functionalities" time="27.112">
+    <system-out><![CDATA[
+@LocalAdAndCatalog
+Scenario: User would like to see Local Ad & Catalog Page &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:43&amp#27;[0m
+18:35:18.565 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:35:32.812 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                            &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+18:35:39.916 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                            &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Local Ad & Catalog&amp#27;[0m                        &amp#27;[90m# step_definations.LocalAdAndCatalogSteps.clickOnLocalADAndCatalogSteps()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should see the Local Ad & Catalog Page&amp#27;[0m       &amp#27;[90m# step_definations.LocalAdAndCatalogSteps.valodateLocalAdPageSteps()&amp#27;[0m
+18:35:43.914 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 12338
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632522916.943][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:35:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="User would like to see the New Lower Prices" classname="Test Home Depot functionalities" time="40.936">
+    <error type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Savings Center: New Lower Prices']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:56688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 476d7441b7f4d4d72553fe808fdc4aad
+*** Element info: {Using=xpath, value=//span[normalize-space()='Savings Center: New Lower Prices']}
+]]></error>
+    <system-out><![CDATA[
+@New_LowerPrice
+Scenario: User would like to see the New Lower Prices   &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:50&amp#27;[0m
+18:35:45.404 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:35:59.834 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                           &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+18:36:08.507 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                           &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mMouse hover on Specials & Offers&amp#27;[0m                 &amp#27;[90m# step_definations.NewLowerPriceSteps.mouseHoverOnSpecialsandOffersSteps()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on New Lower Price&amp#27;[0m                          &amp#27;[90m# step_definations.NewLowerPriceSteps.clickOnNewLowerPriceSteps()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser should able to see Click on New Lower Price&amp#27;[0m &amp#27;[90m# step_definations.NewLowerPriceSteps.validateNewLowerPriceSteps()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Savings Center: New Lower Prices']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:56688}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 476d7441b7f4d4d72553fe808fdc4aad
+*** Element info: {Using=xpath, value=//span[normalize-space()='Savings Center: New Lower Prices']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page_object.NewLowerPrice.validateNewLowerPrice(NewLowerPrice.java:36)
+	at step_definations.NewLowerPriceSteps.validateNewLowerPriceSteps(NewLowerPriceSteps.java:31)
+	at ✽.User should able to see Click on New Lower Price(file:///Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/src/test/resources/Features/HomeDepot_Test.feature:55)
+&amp#27;[0m
+18:36:24.858 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 32007
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632522944.057][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:35:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="User would like to see Paint Page" classname="Test Home Depot functionalities" time="26.06">
+    <system-out><![CDATA[
+@Paint
+Scenario: User would like to see Paint Page &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:59&amp#27;[0m
+18:36:26.376 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:36:38.583 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m               &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser Mouse hover on All Departments&amp#27;[0m  &amp#27;[90m# step_definations.ElectricalSteps.mouseHoverToAllDepartments()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Paint&amp#27;[0m                        &amp#27;[90m# step_definations.PaintSteps.clickOnPaintStep()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should open the Paint Page&amp#27;[0m      &amp#27;[90m# step_definations.PaintSteps.validatePaintStep()&amp#27;[0m
+18:36:50.853 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 31977
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632522984.991][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:36:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="User would like to see all Privacy and Security Center Options" classname="Test Home Depot functionalities" time="26.414">
+    <system-out><![CDATA[
+@PrivacyAndSecurityCenter
+Scenario: User would like to see all Privacy and Security Center Options &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:66&amp#27;[0m
+18:36:52.406 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:37:05.391 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                                            &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+18:37:13.538 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                                            &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Privacy and Security Center&amp#27;[0m                               &amp#27;[90m# step_definations.PrivacyAndSecurityCenterSteps.clickOnPrivacyAndPolicySteps()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should able to see Privacy and Security Page&amp#27;[0m                 &amp#27;[90m# step_definations.PrivacyAndSecurityCenterSteps.setValidatePrivacyAndSecuritySteps()&amp#27;[0m
+18:37:17.322 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 34446
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632523011.046][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:36:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="User would like to Search An Item" classname="Test Home Depot functionalities" time="32.111">
+    <system-out><![CDATA[
+@Search @Positive_Test
+Scenario: User would like to Search An Item    &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:74&amp#27;[0m
+18:37:18.748 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:37:33.176 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                  &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on the Search Bar&amp#27;[0m                  &amp#27;[90m# step_definations.SearchSteps.clickOnSearchBarStep()&amp#27;[0m
+18:37:40.090 [main] &amp#27;[0mINFO  step_definations.SearchSteps - User entered the item in the search bar&amp#27;[m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser would like to Search "&amp#27;[0m&amp#27;[32m&amp#27;[1mDoor Bell&amp#27;[0m&amp#27;[32m"&amp#27;[0m   &amp#27;[90m# step_definations.SearchSteps.enterSearchItem(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Search Button&amp#27;[0m                   &amp#27;[90m# step_definations.SearchSteps.clickOnSearchButtonSteps()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should able to see the Search Item&amp#27;[0m &amp#27;[90m# step_definations.SearchSteps.valodateSearchBarStep()&amp#27;[0m
+18:37:49.444 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 11873
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632523037.461][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:37:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Check Search Funtionality with valid Credential" classname="Test Home Depot functionalities" time="49.025">
+    <error type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Doorbells']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:57139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a8e51c3db8a24bce97fcfee7a35e951
+*** Element info: {Using=xpath, value=//h1[normalize-space()='Doorbells']}
+]]></error>
+    <system-out><![CDATA[
+@DataDriven_Test
+Scenario Outline: Check Search Funtionality with valid Credential &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:92&amp#27;[0m
+18:37:51.007 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:38:04.442 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                                     &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on the Search Bar&amp#27;[0m                                     &amp#27;[90m# step_definations.SearchSteps.clickOnSearchBarStep()&amp#27;[0m
+18:38:12.940 [main] &amp#27;[0mINFO  step_definations.SearchSteps - User entered the item in the search bar&amp#27;[m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser would like to Search "&amp#27;[0m&amp#27;[32m&amp#27;[1mDoor Bell&amp#27;[0m&amp#27;[32m"&amp#27;[0m                      &amp#27;[90m# step_definations.SearchSteps.enterSearchItem(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Search Button&amp#27;[0m                                      &amp#27;[90m# step_definations.SearchSteps.clickOnSearchButtonSteps()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mUser should able to see the Search Item&amp#27;[0m                    &amp#27;[90m# step_definations.SearchSteps.valodateSearchBarStep()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Doorbells']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:57139}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7a8e51c3db8a24bce97fcfee7a35e951
+*** Element info: {Using=xpath, value=//h1[normalize-space()='Doorbells']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page_object.Search.valodateSearchBar(Search.java:42)
+	at step_definations.SearchSteps.valodateSearchBarStep(SearchSteps.java:41)
+	at ✽.User should able to see the Search Item(file:///Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/src/test/resources/Features/HomeDepot_Test.feature:88)
+&amp#27;[0m
+18:38:38.462 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 27857
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for sug[g1e6s3t2i5ons2 30o6n9 .k5e8e5]ping[ WCAhRrNoINmGe]Driv:e rF rosmaSfoec.
+kAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:37:51 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Sign in to the HomeDepot Account" classname="Test Home Depot functionalities" time="49.246">
+    <error type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:57264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a9a47ff9108142536b590945fe1c7155
+*** Element info: {Using=xpath, value=//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']}
+]]></error>
+    <system-out><![CDATA[
+@SignIn_Page @positive_test
+Scenario: Sign in to the HomeDepot Account                                     &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:96&amp#27;[0m
+18:38:40.085 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:38:54.533 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                                                  &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on My Account&amp#27;[0m                                                      &amp#27;[90m# step_definations.SignInSteps.clickOnMyAccountSteps()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Sign in button&amp#27;[0m                                                  &amp#27;[90m# step_definations.SignInSteps.clickOnSigninButtonSteps()&amp#27;[0m
+18:39:10.788 [main] &amp#27;[0mINFO  step_definations.SignInSteps - user has entered Credentials&amp#27;[m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email "&amp#27;[0m&amp#27;[32m&amp#27;[1masarker0420@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mIdontknow0420@&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definations.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Sign In&amp#27;[0m                                                         &amp#27;[90m# step_definations.SignInSteps.clickOnSigninSteps()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is navigated to home page&amp#27;[0m                                          &amp#27;[90m# step_definations.SignInSteps.validateUserLogInSuccessfully()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:57264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a9a47ff9108142536b590945fe1c7155
+*** Element info: {Using=xpath, value=//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page_object.SignIn.validateUserLogInSuccessfully(SignIn.java:45)
+	at step_definations.SignInSteps.validateUserLogInSuccessfully(SignInSteps.java:57)
+	at ✽.user is navigated to home page(file:///Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/src/test/resources/Features/HomeDepot_Test.feature:102)
+&amp#27;[0m
+18:39:27.713 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 37180
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632523118.617][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:38:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Check login is successful with valid credentials #1" classname="Test Home Depot functionalities" time="47.127">
+    <error type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:57388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ce823b5e3ef4cae116ec6c5fdf33d32
+*** Element info: {Using=xpath, value=//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']}
+]]></error>
+    <system-out><![CDATA[
+@dataDriven_test
+Scenario Outline: Check login is successful with valid credentials             &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:116&amp#27;[0m
+18:39:29.320 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:39:42.072 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                                                  &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on My Account&amp#27;[0m                                                      &amp#27;[90m# step_definations.SignInSteps.clickOnMyAccountSteps()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Sign in button&amp#27;[0m                                                  &amp#27;[90m# step_definations.SignInSteps.clickOnSigninButtonSteps()&amp#27;[0m
+18:39:58.279 [main] &amp#27;[0mINFO  step_definations.SignInSteps - user has entered Credentials&amp#27;[m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email "&amp#27;[0m&amp#27;[32m&amp#27;[1masarker0420@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mIdontknow0420@&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definations.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Sign In&amp#27;[0m                                                         &amp#27;[90m# step_definations.SignInSteps.clickOnSigninSteps()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is navigated to home page&amp#27;[0m                                          &amp#27;[90m# step_definations.SignInSteps.validateUserLogInSuccessfully()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:57388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ce823b5e3ef4cae116ec6c5fdf33d32
+*** Element info: {Using=xpath, value=//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page_object.SignIn.validateUserLogInSuccessfully(SignIn.java:45)
+	at step_definations.SignInSteps.validateUserLogInSuccessfully(SignInSteps.java:57)
+	at ✽.user is navigated to home page(file:///Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/src/test/resources/Features/HomeDepot_Test.feature:112)
+&amp#27;[0m
+18:40:14.843 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 33803
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632523167.851][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:39:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Check login is successful with valid credentials #2" classname="Test Home Depot functionalities" time="47.26">
+    <error type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:57512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e90b054d63edd29ecfc61c51d82bd3c
+*** Element info: {Using=xpath, value=//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']}
+]]></error>
+    <system-out><![CDATA[
+@dataDriven_test
+Scenario Outline: Check login is successful with valid credentials              &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:117&amp#27;[0m
+18:40:16.366 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:40:29.387 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                                                   &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on My Account&amp#27;[0m                                                       &amp#27;[90m# step_definations.SignInSteps.clickOnMyAccountSteps()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Sign in button&amp#27;[0m                                                   &amp#27;[90m# step_definations.SignInSteps.clickOnSigninButtonSteps()&amp#27;[0m
+18:40:45.912 [main] &amp#27;[0mINFO  step_definations.SignInSteps - user has entered Credentials&amp#27;[m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email "&amp#27;[0m&amp#27;[32m&amp#27;[1makashsarker6@gmail.com&amp#27;[0m&amp#27;[32m" and password "&amp#27;[0m&amp#27;[32m&amp#27;[1mIdontknow0420@&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# step_definations.SignInSteps.enterUserCredentials(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Sign In&amp#27;[0m                                                          &amp#27;[90m# step_definations.SignInSteps.clickOnSigninSteps()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is navigated to home page&amp#27;[0m                                           &amp#27;[90m# step_definations.SignInSteps.validateUserLogInSuccessfully()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '12.0', java.version: '17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:57512}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e90b054d63edd29ecfc61c51d82bd3c
+*** Element info: {Using=xpath, value=//div[@class='welcomeMessage heavyText col__12-12 u--paddingNormal-top u__text-align--center']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at page_object.SignIn.validateUserLogInSuccessfully(SignIn.java:45)
+	at step_definations.SignInSteps.validateUserLogInSuccessfully(SignInSteps.java:57)
+	at ✽.user is navigated to home page(file:///Users/akashsarker/Desktop/qa_class2021/HomeDepot_Project/src/test/resources/Features/HomeDepot_Test.feature:112)
+&amp#27;[0m
+18:41:02.099 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 16476
+Only local connections are allowed.
+Please see https://chrom[163e25d2r3i2ve1r.chr4om.i9u81m][W.ARoNIrNG]g:/ sFreomcSuorcikAddtr yfa-icleod nsoni dneetmarskatio
+ns for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 24, 2021 6:40:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="User would like to see Store Location" classname="Test Home Depot functionalities" time="21.804">
+    <system-out><![CDATA[
+@Store_Location
+Scenario: User would like to see Store Location &amp#27;[90m# src/test/resources/Features/HomeDepot_Test.feature:121&amp#27;[0m
+18:41:04.101 [main] &amp#27;[0mINFO  step_definations.Hooks - Launch Chrome Browser&amp#27;[m
+18:41:15.834 [main] &amp#27;[0mINFO  step_definations.ElectricalSteps - User is on the Home Page&amp#27;[m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser on the Home Page&amp#27;[0m                   &amp#27;[90m# step_definations.ElectricalSteps.navigateToHomePageForElectrical()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Store Location Arrow&amp#27;[0m             &amp#27;[90m# step_definations.StoreLocationSteps.clickOnStoreLocationArrowSteps()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick on Find Location Button&amp#27;[0m             &amp#27;[90m# step_definations.StoreLocationSteps.clickOnFindLocationSteps()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should see the Store location&amp#27;[0m       &amp#27;[90m# step_definations.StoreLocationSteps.valodateStoreLocationSteps()&amp#27;[0m
+18:41:23.918 [main] &amp#27;[0mINFO  step_definations.Hooks - Close Chrome Browser&amp#27;[m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 14874
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1632523262.247][WARNING]: FromSockAddr failed on netmask
+ChromeDriver was started successfully.
+Sep 24, 2021 6:41:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

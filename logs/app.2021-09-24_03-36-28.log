@@ -1,0 +1,25 @@
+2021-09-24 15:36:33.713 [main][7747] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 15:36:49.117 [main][23151] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 15:36:49.134 [main][23168] DEBUG page_object.SignIn - Click on My Account
+2021-09-24 15:36:55.305 [main][29339] DEBUG page_object.SignIn - Click on Account Profile
+2021-09-24 15:37:07.195 [main][41229] INFO  step_definations.SignInSteps - user has entered Credentials
+2021-09-24 15:37:07.196 [main][41230] DEBUG page_object.SignIn - User clicked on login button
+2021-09-24 15:37:15.977 [main][50011] INFO  page_object.AccountProfile - User is Click on the Hello My Account
+2021-09-24 15:37:18.163 [main][52197] INFO  page_object.AccountProfile - User is Click on the Account Profile
+2021-09-24 15:37:18.163 [main][52197] DEBUG page_object.AccountProfile - Validate Account Profile Page
+2021-09-24 15:37:20.461 [main][54495] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 15:37:22.621 [main][56655] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 15:37:40.654 [main][74688] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 15:37:44.502 [main][78536] DEBUG page_object.Electrical - User Click on on Electrical
+2021-09-24 15:37:52.223 [main][86257] DEBUG page_object.Electrical - Validate Electric Page
+2021-09-24 15:37:53.706 [main][87740] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 15:38:01.443 [main][95477] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 15:38:14.080 [main][108114] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 15:38:14.083 [main][108117] DEBUG page_object.Husky - Click on the Husky Page
+2021-09-24 15:38:23.692 [main][117726] DEBUG page_object.Husky - User should able to see the Husky Page
+2021-09-24 15:38:23.798 [main][117832] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 15:38:25.446 [main][119480] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 15:38:38.345 [main][132379] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 15:38:41.806 [main][135840] DEBUG page_object.Paint - Click On the Paint
+2021-09-24 15:38:50.603 [main][144637] DEBUG page_object.Paint - User should able to see the Paint Page
+2021-09-24 15:38:50.806 [main][144840] INFO  step_definations.Hooks - Close Chrome Browser

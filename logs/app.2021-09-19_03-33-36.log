@@ -1,0 +1,5 @@
+2021-09-19 03:33:39.830 [main][5091] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 03:33:53.572 [main][18833] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 03:34:04.814 [main][30075] INFO  step_definations.Husky - Click on Huskey
+2021-09-19 03:34:05.393 [main][30654] INFO  step_definations.Husky - User should able to see the Husky Page
+2021-09-19 03:34:05.396 [main][30657] INFO  step_definations.Hooks - Close Chrome Browser

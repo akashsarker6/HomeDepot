@@ -1,0 +1,11 @@
+2021-09-25 10:08:43.378 [main][6646] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 10:08:57.773 [main][21041] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 10:08:57.786 [main][21054] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 10:08:59.401 [main][22669] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 10:09:10.631 [main][33899] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 10:09:14.250 [main][37518] DEBUG page_object.Electrical - User Click on on Electrical
+2021-09-25 10:09:21.210 [main][44478] DEBUG page_object.Electrical - Validate Electric Page
+2021-09-25 10:09:22.335 [main][45603] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 10:09:24.009 [main][47277] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 10:09:33.274 [main][56542] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 10:09:34.794 [main][58062] INFO  step_definations.Hooks - Launch Chrome Browser

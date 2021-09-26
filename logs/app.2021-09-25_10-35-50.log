@@ -1,0 +1,10 @@
+2021-09-25 10:35:54.566 [main][6121] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 10:36:07.844 [main][19399] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 10:36:07.856 [main][19411] DEBUG page_object.AccountProfile - Click on My Account
+2021-09-25 10:36:12.956 [main][24511] DEBUG page_object.AccountProfile - Click on Account Profile
+2021-09-25 10:36:23.894 [main][35449] INFO  step_definations.AccountProfileSteps - user has entered Credentials
+2021-09-25 10:36:23.895 [main][35450] DEBUG page_object.AccountProfile - User clicked on login button
+2021-09-25 10:36:32.453 [main][44008] INFO  page_object.AccountProfile - User is Click on the Hello My Account
+2021-09-25 10:36:35.147 [main][46702] INFO  page_object.AccountProfile - User is Click on the Account Profile
+2021-09-25 10:36:35.147 [main][46702] DEBUG page_object.AccountProfile - Validate Account Profile Page
+2021-09-25 10:36:55.289 [main][66844] INFO  step_definations.Hooks - Close Chrome Browser

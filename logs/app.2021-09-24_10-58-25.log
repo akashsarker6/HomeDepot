@@ -1,0 +1,89 @@
+2021-09-24 22:58:34.636 [main][11607] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 22:58:47.992 [main][24963] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 22:58:47.996 [main][24967] DEBUG page_object.SignIn - Click on My Account
+2021-09-24 22:58:53.731 [main][30702] DEBUG page_object.SignIn - Click on Account Profile
+2021-09-24 22:59:04.583 [main][41554] INFO  step_definations.SignInSteps - user has entered Credentials
+2021-09-24 22:59:04.584 [main][41555] DEBUG page_object.SignIn - User clicked on login button
+2021-09-24 22:59:24.438 [main][61409] INFO  page_object.AccountProfile - User is Click on the Hello My Account
+2021-09-24 22:59:26.647 [main][63618] INFO  page_object.AccountProfile - User is Click on the Account Profile
+2021-09-24 22:59:26.648 [main][63619] DEBUG page_object.AccountProfile - Validate Account Profile Page
+2021-09-24 22:59:46.763 [main][83734] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 22:59:48.389 [main][85360] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:00:01.072 [main][98043] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:00:05.423 [main][102394] DEBUG page_object.Electrical - User Click on on Electrical
+2021-09-24 23:00:12.170 [main][109141] DEBUG page_object.Electrical - Validate Electric Page
+2021-09-24 23:00:12.253 [main][109224] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 23:00:13.743 [main][110714] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:00:26.032 [main][123003] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:00:26.034 [main][123005] DEBUG page_object.Husky - Click on the Husky Page
+2021-09-24 23:00:36.568 [main][133539] DEBUG page_object.Husky - User should able to see the Husky Page
+2021-09-24 23:00:36.884 [main][133855] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 23:00:38.301 [main][135272] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:00:54.353 [main][151324] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:00:54.356 [main][151327] DEBUG page_object.Search - Click On the Search BAr
+2021-09-24 23:01:00.037 [main][157008] INFO  step_definations.SearchSteps - User entered the item in the search bar
+2021-09-24 23:01:00.038 [main][157009] DEBUG page_object.Search - Click On the Search Button
+2021-09-24 23:01:11.035 [main][168006] DEBUG page_object.ItemDetails - Click On the Wireless DoorBell
+2021-09-24 23:01:26.200 [main][183171] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //div[@id='sectionColumn8_thd_7c6e']//img[contains(@class,'stretchy')] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='sectionColumn8_thd_7c6e']//img[contains(@class,'stretchy')]"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:17:3bd6:4b5b:4b9a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:51852}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 784f6b9794c1166502a6a2233b18b22b
+*** Element info: {Using=xpath, value=//div[@id='sectionColumn8_thd_7c6e']//img[contains(@class,'stretchy')]}
+2021-09-24 23:01:26.228 [main][183199] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 23:01:27.822 [main][184793] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:01:40.158 [main][197129] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:01:50.286 [main][207257] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:01:50.293 [main][207264] DEBUG page_object.LocalAdAndCatalog - Click On the Local Ad & Catalog
+2021-09-24 23:01:54.345 [main][211316] DEBUG page_object.LocalAdAndCatalog - Landed on Local Ad & Catalog Page
+2021-09-24 23:01:54.738 [main][211709] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 23:01:56.288 [main][213259] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:02:08.396 [main][225367] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:02:12.108 [main][229079] DEBUG page_object.Paint - Click On the Paint
+2021-09-24 23:02:21.322 [main][238293] DEBUG page_object.Paint - User should able to see the Paint Page
+2021-09-24 23:02:22.682 [main][239653] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 23:02:24.309 [main][241280] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:02:35.314 [main][252285] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:02:43.222 [main][260193] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:02:43.226 [main][260197] DEBUG page_object.PrivacyAndSecurityCenter - Click On the Privacy and Security Center
+2021-09-24 23:02:50.936 [main][267907] DEBUG page_object.PrivacyAndSecurityCenter - User should able to see Privacy and Security Page
+2021-09-24 23:02:51.202 [main][268173] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 23:02:52.757 [main][269728] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:03:03.402 [main][280373] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:03:03.403 [main][280374] DEBUG page_object.Search - Click On the Search BAr
+2021-09-24 23:03:14.647 [main][291618] INFO  step_definations.SearchSteps - User entered the item in the search bar
+2021-09-24 23:03:14.649 [main][291620] DEBUG page_object.Search - Click On the Search Button
+2021-09-24 23:03:23.766 [main][300737] DEBUG page_object.Search - Validate the Search Item
+2021-09-24 23:03:24.344 [main][301315] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 23:03:26.022 [main][302993] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:03:38.984 [main][315955] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:03:38.986 [main][315957] DEBUG page_object.Search - Click On the Search BAr
+2021-09-24 23:03:45.015 [main][321986] INFO  step_definations.SearchSteps - User entered the item in the search bar
+2021-09-24 23:03:45.016 [main][321987] DEBUG page_object.Search - Click On the Search Button
+2021-09-24 23:03:56.990 [main][333961] DEBUG page_object.Search - Validate the Search Item
+2021-09-24 23:03:57.451 [main][334422] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 23:03:59.012 [main][335983] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:04:13.095 [main][350066] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:04:13.098 [main][350069] DEBUG page_object.SignIn - Click on My Account
+2021-09-24 23:04:17.544 [main][354515] DEBUG page_object.SignIn - Click on Account Profile
+2021-09-24 23:04:28.801 [main][365772] INFO  step_definations.SignInSteps - user has entered Credentials
+2021-09-24 23:04:28.803 [main][365774] DEBUG page_object.SignIn - User clicked on login button
+2021-09-24 23:04:29.770 [main][366741] DEBUG page_object.SignIn - User is on the Home Page
+2021-09-24 23:05:04.874 [main][401845] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 23:05:06.560 [main][403531] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:05:20.074 [main][417045] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:05:20.075 [main][417046] DEBUG page_object.SignIn - Click on My Account
+2021-09-24 23:05:24.947 [main][421918] DEBUG page_object.SignIn - Click on Account Profile
+2021-09-24 23:05:36.687 [main][433658] INFO  step_definations.SignInSteps - user has entered Credentials
+2021-09-24 23:05:36.688 [main][433659] DEBUG page_object.SignIn - User clicked on login button
+2021-09-24 23:05:37.660 [main][434631] DEBUG page_object.SignIn - User is on the Home Page
+2021-09-24 23:06:12.769 [main][469740] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 23:06:14.480 [main][471451] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 23:06:27.762 [main][484733] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 23:06:27.779 [main][484750] DEBUG page_object.StoreLocation - Click On the Store Location Arrow
+2021-09-24 23:06:32.634 [main][489605] DEBUG page_object.StoreLocation - Click On the Find Location Button
+2021-09-24 23:06:35.025 [main][491996] DEBUG page_object.StoreLocation - Landed on Find Location Page
+2021-09-24 23:06:35.474 [main][492445] INFO  step_definations.Hooks - Close Chrome Browser

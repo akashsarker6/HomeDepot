@@ -1,0 +1,6 @@
+2021-09-25 17:19:10.572 [main][14995] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:19:24.211 [main][28634] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:19:36.000 [main][40423] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:19:36.014 [main][40437] DEBUG page_object.Help - Click on Help from HomePage
+2021-09-25 17:19:40.643 [main][45066] DEBUG page_object.Help - User should able to see the Help
+2021-09-25 17:19:40.810 [main][45233] INFO  step_definations.Hooks - Close Chrome Browser

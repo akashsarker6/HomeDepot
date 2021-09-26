@@ -1,0 +1,14 @@
+2021-09-10 21:30:14.946 [main][7798] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-10 21:30:30.988 [main][23840] INFO  step_definations.Electrical - User is in HomeDepot home page
+2021-09-10 21:30:34.730 [main][27582] INFO  step_definations.Electrical - User mouse over on All Department
+2021-09-10 21:30:35.230 [main][28082] INFO  step_definations.Electrical - User mouse over on Electrical
+2021-09-10 21:30:50.354 [main][43206] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[text()='Wire' and @class='MainFlyout__link MainFlyout__link--active'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Wire' and @class='MainFlyout__link MainFlyout__link--active']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:1c31:f13e:3bed:196a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:53474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6e090f47959ea1d414a36705988fcf3
+*** Element info: {Using=xpath, value=//a[text()='Wire' and @class='MainFlyout__link MainFlyout__link--active']}
+2021-09-10 21:30:50.373 [main][43225] INFO  step_definations.Hooks - Close Chrome Browser

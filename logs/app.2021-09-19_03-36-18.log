@@ -1,0 +1,6 @@
+2021-09-19 03:36:21.967 [main][5058] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 03:36:34.236 [main][17327] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 03:36:37.670 [main][20761] INFO  step_definations.NewLowerPrice - Mouse On the Privacy and Security Center
+2021-09-19 03:36:47.844 [main][30935] INFO  step_definations.NewLowerPrice - Click On the New Lower Price
+2021-09-19 03:36:49.299 [main][32390] INFO  step_definations.NewLowerPrice - User should able to see Click on New Lower Price
+2021-09-19 03:36:49.302 [main][32393] INFO  step_definations.Hooks - Close Chrome Browser

@@ -1,0 +1,5 @@
+2021-09-18 03:44:25.967 [main][5767] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-18 03:44:41.566 [main][21366] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-18 03:44:43.883 [main][23683] INFO  step_definations.Electrical -  Mouse Hover to the Electrical
+2021-09-18 03:44:51.645 [main][31445] INFO  step_definations.Electrical -  Mouse Hover to the Electrical
+2021-09-18 03:44:52.200 [main][32000] INFO  step_definations.Hooks - Close Chrome Browser

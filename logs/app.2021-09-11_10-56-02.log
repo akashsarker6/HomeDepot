@@ -1,0 +1,10 @@
+2021-09-11 10:56:05.146 [main][4690] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-11 10:56:18.152 [main][17696] INFO  step_definations.Electrical - User is in HomeDepot home page
+2021-09-11 10:56:21.595 [main][21139] INFO  step_definations.Electrical - User mouse over on All Department
+2021-09-11 10:56:22.406 [main][21950] INFO  step_definations.Electrical - User mouse over on Electrical
+2021-09-11 10:56:33.509 [main][33053] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[@title='Wire'] and exception is: org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[@title='Wire']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:7540:7e:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: driver.version: RemoteWebDriver
+2021-09-11 10:56:33.526 [main][33070] INFO  step_definations.Hooks - Close Chrome Browser

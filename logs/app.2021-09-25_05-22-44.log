@@ -1,0 +1,72 @@
+2021-09-25 17:22:47.894 [main][5965] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:23:02.485 [main][20556] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:23:02.498 [main][20569] DEBUG page_object.AccountProfile - Click on My Account
+2021-09-25 17:23:07.454 [main][25525] DEBUG page_object.AccountProfile - Click on Account Profile
+2021-09-25 17:23:20.047 [main][38118] INFO  step_definations.AccountProfileSteps - user has entered Credentials
+2021-09-25 17:23:20.051 [main][38122] DEBUG page_object.AccountProfile - User clicked on login button
+2021-09-25 17:23:26.574 [main][44645] INFO  page_object.AccountProfile - User is Click on the Hello My Account
+2021-09-25 17:23:29.319 [main][47390] INFO  page_object.AccountProfile - User is Click on the Account Profile
+2021-09-25 17:23:29.320 [main][47391] DEBUG page_object.AccountProfile - Validate Account Profile Page
+2021-09-25 17:23:49.476 [main][67547] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 17:23:51.941 [main][70012] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:24:07.115 [main][85186] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:24:11.274 [main][89345] DEBUG page_object.Electrical - User Click on on Electrical
+2021-09-25 17:24:17.478 [main][95549] DEBUG page_object.Electrical - Validate Electric Page
+2021-09-25 17:24:17.725 [main][95796] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 17:24:19.630 [main][97701] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:24:33.595 [main][111666] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:24:33.602 [main][111673] DEBUG page_object.Husky - Click on the Husky Page
+2021-09-25 17:24:44.613 [main][122684] DEBUG page_object.Husky - User should able to see the Husky Page
+2021-09-25 17:24:45.100 [main][123171] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 17:24:46.620 [main][124691] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:24:59.338 [main][137409] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:24:59.344 [main][137415] DEBUG page_object.Search - Click On the Search BAr
+2021-09-25 17:25:05.933 [main][144004] INFO  step_definations.SearchSteps - User entered the item in the search bar
+2021-09-25 17:25:05.934 [main][144005] DEBUG page_object.Search - Click On the Search Button
+2021-09-25 17:25:14.248 [main][152319] DEBUG page_object.ItemDetails - Click On the Wireless DoorBell
+2021-09-25 17:25:18.048 [main][156119] DEBUG page_object.ItemDetails - Click On the Wireless DoorBell
+2021-09-25 17:25:18.929 [main][157000] DEBUG page_object.ItemDetails - Validate the Item Details
+2021-09-25 17:25:21.700 [main][159771] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 17:25:23.470 [main][161541] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:25:37.303 [main][175374] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:25:44.509 [main][182580] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:25:44.518 [main][182589] DEBUG page_object.LocalAdAndCatalog - Click On the Local Ad & Catalog
+2021-09-25 17:25:48.635 [main][186706] DEBUG page_object.LocalAdAndCatalog - Landed on Local Ad & Catalog Page
+2021-09-25 17:25:48.969 [main][187040] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 17:25:50.501 [main][188572] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:26:04.327 [main][202398] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:26:11.789 [main][209860] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:26:11.795 [main][209866] DEBUG page_object.Help - Click on Help from HomePage
+2021-09-25 17:26:16.427 [main][214498] DEBUG page_object.Help - User should able to see the Help
+2021-09-25 17:26:16.580 [main][214651] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 17:26:18.150 [main][216221] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:26:31.599 [main][229670] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:26:35.204 [main][233275] DEBUG page_object.Paint - Click On the Paint
+2021-09-25 17:26:44.517 [main][242588] DEBUG page_object.Paint - User should able to see the Paint Page
+2021-09-25 17:26:44.992 [main][243063] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 17:26:46.564 [main][244635] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:26:59.567 [main][257638] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:27:07.942 [main][266013] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:27:07.951 [main][266022] DEBUG page_object.PrivacyAndSecurityCenter - Click On the Privacy and Security Center
+2021-09-25 17:27:12.311 [main][270382] DEBUG page_object.PrivacyAndSecurityCenter - User should able to see Privacy and Security Page
+2021-09-25 17:27:12.445 [main][270516] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 17:27:14.004 [main][272075] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:27:27.733 [main][285804] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:27:27.737 [main][285808] DEBUG page_object.Search - Click On the Search BAr
+2021-09-25 17:27:34.062 [main][292133] INFO  step_definations.SearchSteps - User entered the item in the search bar
+2021-09-25 17:27:34.062 [main][292133] DEBUG page_object.Search - Click On the Search Button
+2021-09-25 17:27:42.853 [main][300924] DEBUG page_object.Search - Validate the Search Item
+2021-09-25 17:27:43.085 [main][301156] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 17:27:44.652 [main][302723] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:27:57.722 [main][315793] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:27:57.725 [main][315796] DEBUG page_object.Search - Click On the Search BAr
+2021-09-25 17:28:04.277 [main][322348] INFO  step_definations.SearchSteps - User entered the item in the search bar
+2021-09-25 17:28:04.278 [main][322349] DEBUG page_object.Search - Click On the Search Button
+2021-09-25 17:28:13.922 [main][331993] DEBUG page_object.Search - Validate the Search Item
+2021-09-25 17:28:14.679 [main][332750] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-25 17:28:16.331 [main][334402] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-25 17:28:32.084 [main][350155] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-25 17:28:32.101 [main][350172] DEBUG page_object.StoreLocation - Click On the Store Location Arrow
+2021-09-25 17:28:36.193 [main][354264] DEBUG page_object.StoreLocation - Click On the Find Location Button
+2021-09-25 17:28:38.658 [main][356729] DEBUG page_object.StoreLocation - Landed on Find Location Page
+2021-09-25 17:28:38.996 [main][357067] INFO  step_definations.Hooks - Close Chrome Browser

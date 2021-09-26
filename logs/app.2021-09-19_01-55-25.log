@@ -1,0 +1,8 @@
+2021-09-19 01:55:28.531 [main][5453] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 01:55:42.968 [main][19890] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 01:55:49.166 [main][26088] INFO  step_definations.LocalAdAndCatalog - Click On the Search BAr
+2021-09-19 01:55:49.180 [main][26102] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-19 01:55:51.103 [main][28025] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 01:56:05.409 [main][42331] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 01:56:10.769 [main][47691] INFO  step_definations.LocalAdAndCatalog - Click On the Search BAr
+2021-09-19 01:56:10.779 [main][47701] INFO  step_definations.Hooks - Close Chrome Browser

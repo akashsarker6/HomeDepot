@@ -1,0 +1,12 @@
+2021-09-18 04:11:18.590 [main][7312] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-18 04:11:32.474 [main][21196] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-18 04:11:48.075 [main][36797] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[@class='ShoppingLinks__link js__flyout--open ShoppingLinks__link--force-open'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='ShoppingLinks__link js__flyout--open ShoppingLinks__link--force-open']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:64651}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c4407a648704f53a1d2c5345d761a2f
+*** Element info: {Using=xpath, value=//a[@class='ShoppingLinks__link js__flyout--open ShoppingLinks__link--force-open']}
+2021-09-18 04:11:48.102 [main][36824] INFO  step_definations.Hooks - Close Chrome Browser

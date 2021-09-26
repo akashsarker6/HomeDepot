@@ -1,0 +1,15 @@
+2021-09-24 14:55:42.868 [main][6670] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 14:55:56.235 [main][20037] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 14:55:59.968 [main][23770] DEBUG page_object.Electrical - User Click on on Electrical
+2021-09-24 14:56:07.479 [main][31281] DEBUG page_object.Electrical - Validate Electric Page
+2021-09-24 14:56:07.729 [main][31531] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 14:56:09.766 [main][33568] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 14:56:31.331 [main][55133] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 14:56:31.334 [main][55136] DEBUG page_object.Husky - Click on the Husky Page
+2021-09-24 14:56:40.605 [main][64407] DEBUG page_object.Husky - User should able to see the Husky Page
+2021-09-24 14:56:40.887 [main][64689] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-24 14:56:42.625 [main][66427] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 14:56:56.431 [main][80233] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 14:56:59.838 [main][83640] DEBUG page_object.Paint - Click On the Paint
+2021-09-24 14:57:08.376 [main][92178] DEBUG page_object.Paint - User should able to see the Paint Page
+2021-09-24 14:57:09.462 [main][93264] INFO  step_definations.Hooks - Close Chrome Browser

@@ -1,0 +1,43 @@
+2021-09-18 00:52:10.878 [main][8360] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-18 00:52:26.444 [main][23926] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-18 00:52:32.926 [main][30408] INFO  step_definations.SignIn - Click on My Account
+2021-09-18 00:52:41.054 [main][38536] INFO  step_definations.SignIn - Click on Account Profile
+2021-09-18 00:52:47.531 [main][45013] INFO  step_definations.SignIn - user has entered Credentials
+2021-09-18 00:52:48.720 [main][46202] INFO  step_definations.SignIn - User clicked on login button
+2021-09-18 00:52:54.999 [main][52481] INFO  step_definations.SignIn - User is on the Home Page
+2021-09-18 00:52:55.005 [main][52487] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-18 00:52:57.358 [main][54840] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-18 00:53:12.325 [main][69807] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-18 00:53:18.465 [main][75947] INFO  step_definations.SignIn - Click on My Account
+2021-09-18 00:53:25.080 [main][82562] INFO  step_definations.SignIn - Click on Account Profile
+2021-09-18 00:53:31.861 [main][89343] INFO  step_definations.SignIn - user has entered Credentials
+2021-09-18 00:53:33.906 [main][91388] INFO  step_definations.SignIn - User clicked on login button
+2021-09-18 00:53:39.655 [main][97137] INFO  step_definations.SignIn - User is on the Home Page
+2021-09-18 00:53:39.660 [main][97142] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-18 00:53:41.400 [main][98882] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-18 00:53:54.848 [main][112330] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-18 00:54:00.660 [main][118142] INFO  step_definations.SignIn - Click on My Account
+2021-09-18 00:54:07.810 [main][125292] INFO  step_definations.SignIn - Click on Account Profile
+2021-09-18 00:54:15.468 [main][132950] INFO  step_definations.SignIn - user has entered Credentials
+2021-09-18 00:54:16.669 [main][134151] INFO  step_definations.SignIn - User clicked on login button
+2021-09-18 00:54:22.182 [main][139664] INFO  step_definations.SignIn - User is on the Home Page
+2021-09-18 00:54:22.186 [main][139668] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-18 00:54:23.850 [main][141332] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-18 00:54:39.296 [main][156778] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-18 00:54:43.819 [main][161301] INFO  step_definations.SignIn - Click on My Account
+2021-09-18 00:54:51.715 [main][169197] INFO  step_definations.SignIn - Click on Account Profile
+2021-09-18 00:54:57.940 [main][175422] INFO  step_definations.SignIn - user has entered Credentials
+2021-09-18 00:54:59.351 [main][176833] INFO  step_definations.SignIn - User clicked on login button
+2021-09-18 00:55:14.547 [main][192029] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-18 00:55:16.397 [main][193879] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-18 00:55:32.923 [main][210405] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-18 00:55:48.593 [main][226075] ERROR command_providers.ElementActions - Element Exception for the locator By.id: email and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#email"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.lan', ip: '2603:7000:cc03:42aa:0:0:0:1ae3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:64640}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 29177fc6dfcdf5af5292ad991872cf3a
+*** Element info: {Using=id, value=email}
+2021-09-18 00:55:48.603 [main][226085] INFO  step_definations.Hooks - Close Chrome Browser

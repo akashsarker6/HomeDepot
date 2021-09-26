@@ -1,0 +1,6 @@
+2021-09-11 11:21:45.116 [main][5180] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-11 11:21:58.317 [main][18381] INFO  step_definations.Electrical - User is in HomeDepot home page
+2021-09-11 11:22:02.058 [main][22122] INFO  step_definations.Electrical - User mouse over on All Department
+2021-09-11 11:22:02.519 [main][22583] INFO  step_definations.Electrical - User mouse over on Electrical
+2021-09-11 11:22:02.755 [main][22819] INFO  step_definations.Electrical - User mouse over on Wire
+2021-09-11 11:22:03.922 [main][23986] INFO  step_definations.Hooks - Close Chrome Browser

@@ -1,0 +1,6 @@
+2021-09-18 13:05:55.574 [main][5226] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-18 13:06:07.476 [main][17128] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-18 13:06:11.354 [main][21006] INFO  step_definations.Electrical -  Mouse Hover to the Electrical
+2021-09-18 13:06:19.811 [main][29463] INFO  step_definations.Paint - Click On the Paint
+2021-09-18 13:06:20.434 [main][30086] INFO  step_definations.Paint - User should able to see the Paint Page
+2021-09-18 13:06:20.436 [main][30088] INFO  step_definations.Hooks - Close Chrome Browser

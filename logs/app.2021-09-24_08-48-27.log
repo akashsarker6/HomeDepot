@@ -1,0 +1,14 @@
+2021-09-24 20:48:32.870 [main][7212] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-24 20:48:50.267 [main][24609] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 20:48:58.420 [main][32762] INFO  step_definations.ElectricalSteps - User is on the Home Page
+2021-09-24 20:48:58.429 [main][32771] DEBUG page_object.NewLowerPrice - Mouse On the Privacy and Security Center
+2021-09-24 20:49:13.553 [main][47895] ERROR command_providers.ElementActions - Element Exception for the locator By.xpath: //a[@class='ShoppingLinks__link js__flyout--open'][normalize-space()='Specials & Offers'] and exception is: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='ShoppingLinks__link js__flyout--open'][normalize-space()='Specials & Offers']"}
+  (Session info: chrome=92.0.4515.159)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro.local', ip: 'fe80:0:0:0:17:3bd6:4b5b:4b9a%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.159, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /var/folders/7h/kpzp938139d...}, goog:chromeOptions: {debuggerAddress: localhost:65216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 754c07fb045f536b59becb28e6cf8baa
+*** Element info: {Using=xpath, value=//a[@class='ShoppingLinks__link js__flyout--open'][normalize-space()='Specials & Offers']}
+2021-09-24 20:49:13.575 [main][47917] INFO  step_definations.Hooks - Close Chrome Browser

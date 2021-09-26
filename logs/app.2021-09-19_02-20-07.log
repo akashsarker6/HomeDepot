@@ -1,0 +1,15 @@
+2021-09-19 02:20:12.267 [main][6874] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 02:20:25.768 [main][20375] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 02:20:32.246 [main][26853] INFO  step_definations.LocalAdAndCatalog - Click On the Search BAr
+2021-09-19 02:20:33.046 [main][27653] INFO  step_definations.LocalAdAndCatalog - User entered the item in the search bar
+2021-09-19 02:20:42.837 [main][37444] INFO  step_definations.LocalAdAndCatalog - Click On the Search Button
+2021-09-19 02:20:47.261 [main][41868] INFO  step_definations.LocalAdAndCatalog - Click On the Wireless DoorBell
+2021-09-19 02:20:47.262 [main][41869] INFO  step_definations.LocalAdAndCatalog - Validate the Item on the Cart
+2021-09-19 02:20:47.264 [main][41871] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-19 02:20:49.081 [main][43688] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 02:21:02.501 [main][57108] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 02:21:07.976 [main][62583] INFO  step_definations.LocalAdAndCatalog - Click On the Search BAr
+2021-09-19 02:21:08.709 [main][63316] INFO  step_definations.LocalAdAndCatalog - User entered the item in the search bar
+2021-09-19 02:21:18.010 [main][72617] INFO  step_definations.LocalAdAndCatalog - Click On the Search Button
+2021-09-19 02:21:23.301 [main][77908] INFO  step_definations.LocalAdAndCatalog - Click On the Wireless DoorBell
+2021-09-19 02:21:38.457 [main][93064] INFO  step_definations.Hooks - Close Chrome Browser

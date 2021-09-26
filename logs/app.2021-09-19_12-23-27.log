@@ -1,0 +1,5 @@
+2021-09-19 00:23:32.333 [main][7247] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 00:23:44.681 [main][19595] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 00:23:53.858 [main][28772] INFO  step_definations.SignIn - Click On the Privacy and Security Center
+2021-09-19 00:23:54.019 [main][28933] INFO  step_definations.SignIn - User should able to see Privacy and Security Page
+2021-09-19 00:23:54.022 [main][28936] INFO  step_definations.Hooks - Close Chrome Browser

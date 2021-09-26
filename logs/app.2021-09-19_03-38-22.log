@@ -1,0 +1,14 @@
+2021-09-19 03:38:25.435 [main][5255] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 03:38:38.287 [main][18107] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 03:38:43.776 [main][23596] INFO  step_definations.LocalAdAndCatalog - Click On the Search BAr
+2021-09-19 03:38:44.610 [main][24430] INFO  step_definations.LocalAdAndCatalog - User entered the item in the search bar
+2021-09-19 03:38:56.014 [main][35834] INFO  step_definations.LocalAdAndCatalog - Click On the Search Button
+2021-09-19 03:38:56.574 [main][36394] INFO  step_definations.LocalAdAndCatalog - Validate the Search Item
+2021-09-19 03:38:56.576 [main][36396] INFO  step_definations.Hooks - Close Chrome Browser
+2021-09-19 03:38:58.773 [main][38593] INFO  step_definations.Hooks - Launch Chrome Browser
+2021-09-19 03:39:10.985 [main][50805] INFO  step_definations.SignIn - user is in the Home Page
+2021-09-19 03:39:17.682 [main][57502] INFO  step_definations.LocalAdAndCatalog - Click On the Search BAr
+2021-09-19 03:39:18.430 [main][58250] INFO  step_definations.LocalAdAndCatalog - User entered the item in the search bar
+2021-09-19 03:39:27.549 [main][67369] INFO  step_definations.LocalAdAndCatalog - Click On the Search Button
+2021-09-19 03:39:28.078 [main][67898] INFO  step_definations.LocalAdAndCatalog - Validate the Search Item
+2021-09-19 03:39:28.078 [main][67898] INFO  step_definations.Hooks - Close Chrome Browser
